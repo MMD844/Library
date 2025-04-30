@@ -1,10 +1,10 @@
 package Products;
 
-public class Product {
+public abstract class Product {
     private String title;
     private Double price;
     private String id;
-    private static int productCount = 0;
+    static int productCount = 0;
 
     public Product(String title, Double price) {
         this.title = title;
