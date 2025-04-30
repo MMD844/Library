@@ -27,6 +27,6 @@ public class Book extends Product{
 
     @Override
     protected String generateId() {
-        return "1" + String.format("%03d", Product.productCount);
+        return "1" + String.format("%d", Product.productCount);
     }
 }
