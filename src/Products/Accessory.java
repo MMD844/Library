@@ -19,6 +19,6 @@ public class Accessory extends Product{
 
     @Override
     protected String generateId() {
-        return "3" + String.format("%d", Product.productCount);
+        return "300" + String.format("%d", Product.productCount);
     }
 }

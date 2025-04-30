@@ -21,6 +21,6 @@ public class NoteBook extends Product {
 
     @Override
     protected String generateId() {
-        return "2" + String.format("%d", Product.productCount);
+        return "200" + String.format("%d", Product.productCount);
     }
 }
